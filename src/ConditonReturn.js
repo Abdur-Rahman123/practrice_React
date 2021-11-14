@@ -10,7 +10,10 @@ constructor(){
 }
 render(){
     return (
-        this.state.login?<button>Logout</button> : <button>Login</button>
+        <div>
+        {this.state.login?<button>Logout</button> : <button>Login</button>}
+        </div>
+        
     )
 }
 }

@@ -5,6 +5,7 @@ import Class from './Class'
 import Myfunction from './Function';
 import State from './State';
 import ConditionReturn from './ConditonReturn'
+import NewDemo from './NewDemo'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <Myfunction></Myfunction>
     <State></State>
     <ConditionReturn></ConditionReturn>
+    <NewDemo></NewDemo>
 
     </div>
 
