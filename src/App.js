@@ -10,18 +10,9 @@ import Form from './Form'
 import SignUp from './SignUp'
 
 function App() {
-  return (
-    <div>
-    <Welcome name="Rahman" age="20"></Welcome>
-    <Class name="Karim"></Class>
-    <Myfunction></Myfunction>
-    <State name="value"></State>
-    <ConditionReturn></ConditionReturn>
-    <Form></Form>
-    <SignUp></SignUp>
-    </div>
-
-  );
+  return(
+    <h1>Hello,from home</h1>
+  )
 }
 
 export default App;
