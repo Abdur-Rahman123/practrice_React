@@ -6,6 +6,7 @@ import Myfunction from './Function';
 import State from './State';
 import ConditionReturn from './ConditonReturn'
 import NewDemo from './NewDemo'
+import Form from './Form'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
     <Myfunction></Myfunction>
     <State></State>
     <ConditionReturn></ConditionReturn>
-    <NewDemo></NewDemo>
+    <Form></Form>
 
     </div>
 
