@@ -7,6 +7,7 @@ import State from './State';
 import ConditionReturn from './ConditonReturn'
 import NewDemo from './NewDemo'
 import Form from './Form'
+import SignUp from './SignUp'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
     <State name="value"></State>
     <ConditionReturn></ConditionReturn>
     <Form></Form>
-
+    <SignUp></SignUp>
     </div>
 
   );

@@ -13,10 +13,13 @@ class Form extends Component {
         var newName=event.target.name;
         this.setState({[newName]:newValue})
     }
+    submitHandler=()=>{
+        alert(this.state.username+" "+this.state.password);
+    }
     render() {
         return (
             <div className="text-center">
-                <form className="form-control">
+                <form onSubmit={this.submitHandler}>
                     <p>First Form</p>
                     <p>{this.state.username}</p>
                     <p>{this.state.password}</p>
