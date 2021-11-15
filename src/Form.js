@@ -4,20 +4,24 @@ class Form extends Component {
     constructor() {
         super();
         this.state={
-            name:" "
+            username:" ",
+            password:" "
         }
     }
     changeHandler=(event)=> {
-        var newName=event.target.value;
-        this.setState({name:newName})
+        var newValue=event.target.value;
+        var newName=event.target.name;
+        this.setState({[newName]:newValue})
     }
     render() {
         return (
             <div className="text-center">
                 <form className="form-control">
                     <p>First Form</p>
-                    <p>{this.state.name}</p>
-                    <input onChange={this.changeHandler} type="text" placeholder="Enter your name"></input><br></br>
+                    <p>{this.state.username}</p>
+                    <p>{this.state.password}</p>
+                    <input name="username" onChange={this.changeHandler} type="text" placeholder="Enter your name"></input><br></br>
+                    <input name="password" onChange={this.changeHandler} type="text" placeholder="Enter your Password"></input><br></br>
                     <input type="submit" value="Submit Now"></input>
                 </form>
             </div>

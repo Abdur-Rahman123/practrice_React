@@ -14,7 +14,7 @@ function App() {
     <Welcome name="Rahman" age="20"></Welcome>
     <Class name="Karim"></Class>
     <Myfunction></Myfunction>
-    <State></State>
+    <State name="value"></State>
     <ConditionReturn></ConditionReturn>
     <Form></Form>
 
